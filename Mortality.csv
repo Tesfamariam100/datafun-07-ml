@@ -1,4 +1,4 @@
-Country_name,Population_2020,COVID_deaths_2019/1000000
+Country_name,Population_2020,COVID_deaths_2019/100000
 Belgium,11589616,168.496
 Slovenia,2078932,129.730
 Bosnia and Herzegovina,3280815,123.445
@@ -8,3 +8,5 @@ Peru,32971846,114.279
 Bulgaria,6948445,109.032
 Spain,46754783,108.731
 Montenegro,628062,108.588
+
+print(mortality_df.columns)
