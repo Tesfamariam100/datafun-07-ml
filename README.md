@@ -45,9 +45,9 @@ Document the project purpose, virtual environment setup, and commands used for v
 ### **Version Control**
 **Git Add and Commit:**
 
-`git add .`
-`git commit -m` "Initial commit: Setup project structure and dependencies"
-`Git Push` to GitHub:
+ - `git add .`
+ - `git commit -m` "Initial commit: Setup project structure and dependencies"
+ - `Git Push` to GitHub:
 Running the Code
 
 Document instructions for running your code
