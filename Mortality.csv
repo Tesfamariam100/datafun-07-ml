@@ -8,4 +8,3 @@ Peru,32971846,114.279
 Bulgaria,6948445,109.032
 Spain,46754783,108.731
 Montenegro,628062,108.588
-print(mortality_df.columns)
