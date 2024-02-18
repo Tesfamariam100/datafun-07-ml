@@ -43,15 +43,13 @@ Add a useful .gitignore file to the root project folder to exclude files and dir
 Document the project purpose, virtual environment setup, and commands used for version control and running the code.
 
 ### **Version Control**
-Git Add and Commit:
+**Git Add and Commit:**
 
 `git add .`
-git commit -m "Initial commit: Setup project structure and dependencies"
-Git Push to GitHub:
-
-
-`git push origin main`
+`git commit -m` "Initial commit: Setup project structure and dependencies"
+`Git Push` to GitHub:
 Running the Code
+
 Document instructions for running your code
 
 ### **Conclusion**
