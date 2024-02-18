@@ -9,32 +9,41 @@ Investigate how country population size in 2020 correlates with COVID-19 deaths 
 Machine learning for predictive analytics
 
 ## Getting Started
+Project Requirements include:
+Build a model
+Make predictions
+Visualize the model
+Publish your insights
+
 ### **Create Repository:**
 In your browser, create a new GitHub repository (datafun-07-ml) with the default README.md. 
 
 ### **Clone Repository:**
 Clone the newly created repository to your local machine Documents folder using `Git clone` command or via VS Code.
-Git clone C:\Users\Tesfamariam\datafun-O7-ml
+Git clone [my repository](https://github.com/Tesfamariam100/datafun-07-ml)
 
 ### **Create Virtual Environment:**
 Set up a project virtual environment named .venv in the root project folder. In the VS Code terminal:
 
 `python3 -m venv .venv`
-Activate Virtual Environment: Activate the project virtual environment. In the VS Code terminal:
-
-
+Activate Virtual Environment: Activate the project virtual environment. 
+In the VS Code terminal:
 On Windows:
-
-`.\.venv\S`
-cripts\activate
+`.\.venv\Scripts\activate`
 
 ### **Manage Project Requirements:**
 Install dependencies listed in the project specification.
 
-pip install <dependency1> <dependency2> ...
+`pip install pandas
+pip install pyarrow
+pip install scipy
+pip install seaborn
+pip install matplotlib
+pip install scikit-lear`
+
 Freeze your requirements to requirements.txt:
 
-`pip freeze` > requirements.txt
+`pip freezerequirements.txt`
 
 ### **Add .gitignore:**
 Add a useful .gitignore file to the root project folder to exclude files and directories not to be tracked by Git.
@@ -46,14 +55,11 @@ Document the project purpose, virtual environment setup, and commands used for v
 **Git Add and Commit:**
 
  - `git add .`
- - `git commit -m` "Initial commit: Setup project structure and dependencies"
- - `Git Push` to GitHub:
-Running the Code
+ - `git commit -m "Initial commit"`
+ - `Git Push origin main` 
 
-Document instructions for running your code
-
-### **Conclusion**
-TO BE CONTINUED...
+### Project Organization & Data Files
+Access, download and add associated files and data to the project folder
 
 
 
