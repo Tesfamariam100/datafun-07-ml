@@ -61,6 +61,66 @@ Document the project purpose, virtual environment setup, and commands used for v
 ### Project Organization & Data Files
 Access, download and add associated files and data to the project folder
 
+### Project start:
+create operations.ipynb file
+### import the required Python libraries:
+
+`import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LinearRegression
+from sklearn import metrics`
+
+### Load the dataset into a DataFrame
+`mortality_df = pd.read_csv('Mortality.csv')`
+
+### Explore the Dataset:
+Display the first few rows of the dataset
+`mortality_df.head()`
+
+### Data Preprocessing:
+Check for missing values and handle them if necessary:
+
+### Check for missing values
+Perform any required data cleaning or transformations.
+`mortality_df.isnull().sum()`
+
+### Data Visualization:
+Visualize the data to gain insights:
+### Plotting the distribution of COVID deaths per 100,000 population
+
+### Plotting the distribution of COVID deaths per 100,000 population
+
+### Split the Data:
+
+`X = mortality_df[['Population_2020']]
+y = mortality_df['COVID_deaths_2019 per 100,000']
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)`
+
+### Model Training:
+
+Train a linear regression model using the training data:
+
+### Initialize the linear regression model
+`model = LinearRegression()`
+
+### Fit the model to the training data
+`model.fit(X_train, y_train)`
+
+### Model Evaluation:
+Evaluate the model using appropriate metrics:
+
+# Predict on the test set
+`y_pred = model.predict(X_test)`
+
+# Calculate metrics
+
+`Visualize the model's predictions against the actual values.`
+
+### Conclusion and Next Steps:
+
+Summarize your findings and discuss potential next steps or areas for further analysis.
 
 
 
