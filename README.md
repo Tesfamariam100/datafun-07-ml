@@ -90,8 +90,6 @@ Perform any required data cleaning or transformations.
 Visualize the data to gain insights:
 ### Plotting the distribution of COVID deaths per 100,000 population
 
-### Plotting the distribution of COVID deaths per 100,000 population
-
 ### Split the Data:
 
 `X = mortality_df[['Population_2020']]
