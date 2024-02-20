@@ -34,12 +34,12 @@ On Windows:
 ### **Manage Project Requirements:**
 Install dependencies listed in the project specification.
 
-`pip install pandas
-pip install pyarrow
-pip install scipy
-pip install seaborn
-pip install matplotlib
-pip install scikit-lear`
+`pip install pandas`
+`pip install pyarrow`
+`pip install scipy`
+`pip install seaborn`
+`pip install matplotlib`
+`pip install scikit-lear`
 
 Freeze your requirements to requirements.txt:
 
