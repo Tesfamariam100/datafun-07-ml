@@ -126,7 +126,7 @@ Summarize your findings and discuss potential next steps or areas for further an
 
 #############################################################################
 # Acknowledgment:
-# I extend special thanks to ChatGPT for their invaluable guidance and to the  # authors of 'Intro to Python for Computer Science and Data Science' by Paul J. # Deitel and Harvey Deitel (Pearson, 2020) for their insightful contributions.
+# I extend special thanks to ChatGPT for their invaluable guidance and to   # the authors of 'Intro to Python for Computer Science and Data Science' by # Paul J. # Deitel and Harvey Deitel (Pearson, 2020) for their insightful   # contributions.
 #############################################################################
 
 
